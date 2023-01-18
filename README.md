@@ -30,6 +30,7 @@ state와 action을 입력으로 받고 reward(Q value)를 출력하는 Neural Ne
 ### 실습 6-1: FrozenLake에서 Q Network
 <img width="326" alt="스크린샷 2023-01-18 오후 8 06 02" src="https://user-images.githubusercontent.com/121830114/213213947-074e4a74-bdcf-406a-8338-002e25ad8377.png">
 <img width="605" alt="스크린샷 2023-01-18 오후 8 06 12" src="https://user-images.githubusercontent.com/121830114/213213959-2fd66537-64d7-4de1-84a1-196e6be96b88.png">
+
 ### 실습 6-2: CartPole에서 Q Network
-hi
+
 
