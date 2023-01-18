@@ -1,4 +1,4 @@
-# leature5
+# leature 5
 ## non-deterministic environment(sthochastic)
 deterministic 환경: action을 했을 때, 그 action에 대해 기대되는 state가 확정적인, 결정적인 환경 -> 이 환경에서 Exploit & Exploration 방법을 적용할 경우 적어도 80%의 정확도를 얻음
 non deterministic 환경: agent에게 운이 적용(무작위성 가짐) -> 확룰적인 환경
@@ -13,3 +13,8 @@ non deterministic 환경: agent에게 운이 적용(무작위성 가짐) -> 확�
 <img width="603" alt="스크린샷 2023-01-18 오후 11 58 56" src="https://user-images.githubusercontent.com/121830114/213205276-70ad356f-2987-4d6a-a035-c9a0ee1cd2a4.png">
 
 learning rate를 반영했을 때 Q learning 정확률
+<img width="548" alt="스크린샷 2023-01-19 오전 12 01 58" src="https://user-images.githubusercontent.com/121830114/213206026-bb25db92-594a-4c92-8faf-afb09a7d1eb4.png">
+<img width="300" alt="스크린샷 2023-01-19 오전 12 02 06" src="https://user-images.githubusercontent.com/121830114/213206038-8c6e0005-a6d3-4b42-8da3-bbdada30d761.png">
+learning rate에 따라 정확률은 차이가 남
+
+# Leture 6
