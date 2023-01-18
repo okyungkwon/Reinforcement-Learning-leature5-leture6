@@ -14,10 +14,16 @@ non deterministic 환경: agent에게 운이 적용(무작위성 가짐) -> 확�
 
 learning rate를 반영했을 때 Q learning 정확률
 <img width="548" alt="스크린샷 2023-01-19 오전 12 01 58" src="https://user-images.githubusercontent.com/121830114/213206026-bb25db92-594a-4c92-8faf-afb09a7d1eb4.png">
-<img width="300" alt="스크린샷 2023-01-19 오전 12 02 06" src="https://user-images.githubusercontent.com/121830114/213206038-8c6e0005-a6d3-4b42-8da3-bbdada30d761.png">
+<img width="300" alt="스크린샷 2023-01-19 오전 12 02 06" src="https://user-images.githubusercontent.com/121830114/213206038-8c6e0005-a6d3-4b42-8da3-bbdada30d761.png"><br>
 learning rate에 따라 정확률은 차이가 남
 
 # Leture 6
 ## Q network
 예를 들어 80x80 픽셀의 grayscale 게임 화면을 입력으로 받는 경우
+<img width="593" alt="스크린샷 2023-01-19 오전 12 08 17" src="https://user-images.githubusercontent.com/121830114/213207984-6a8c0d2a-8cd6-4967-9a30-cd335dab856f.png"><br>
+2^(80x80)개의 state 발생 -> 실전 문제에선 Q table 사용하기에 한계 가짐<br>
+해결책: Q를 Neural Network로 대체하여 해결
+<img width="657" alt="스크린샷 2023-01-19 오전 12 07 57" src="https://user-images.githubusercontent.com/121830114/213207998-9a84ee2e-9d71-4e95-beac-5cb5b6dea999.png"><br>
+state와 action을 입력으로 받고 reward(Q value)를 출력하는 Neural Network, state만을 입력으로 받고 각각의 action에 대한 reward(Q value)를 출력으로 내는 Neural Network<br>
+목적: Neural Network가 최적의 정책이 되도록 학습 시키는 것 -> 가설, 비용함수를 정의
 
