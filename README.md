@@ -18,3 +18,6 @@ learning rate를 반영했을 때 Q learning 정확률
 learning rate에 따라 정확률은 차이가 남
 
 # Leture 6
+## Q network
+예를 들어 80x80 픽셀의 grayscale 게임 화면을 입력으로 받는 경우
+
