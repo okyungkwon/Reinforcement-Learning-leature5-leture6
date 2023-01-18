@@ -27,4 +27,9 @@ learning rate에 따라 정확률은 차이가 남
 state와 action을 입력으로 받고 reward(Q value)를 출력하는 Neural Network, state만을 입력으로 받고 각각의 action에 대한 reward(Q value)를 출력으로 내는 Neural Network<br>
 목적: Neural Network가 최적의 정책이 되도록 학습 시키는 것 -> 가설, 비용함수를 정의
 <img width="1006" alt="스크린샷 2023-01-19 오전 12 29 32" src="https://user-images.githubusercontent.com/121830114/213213510-bcf1ddc8-544c-4a2b-9971-a7b201f55d6c.png">
+### 실습 6-1: FrozenLake에서 Q Network
+<img width="326" alt="스크린샷 2023-01-18 오후 8 06 02" src="https://user-images.githubusercontent.com/121830114/213213947-074e4a74-bdcf-406a-8338-002e25ad8377.png">
+<img width="605" alt="스크린샷 2023-01-18 오후 8 06 12" src="https://user-images.githubusercontent.com/121830114/213213959-2fd66537-64d7-4de1-84a1-196e6be96b88.png">
+### 실습 6-2: CartPole에서 Q Network
+hi
 
